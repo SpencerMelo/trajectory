@@ -1,5 +1,11 @@
 # trajectory
 
+Input:
+  - angle = 50
+  - velocity = 100
+  - gravity = 9.8
+  - initial height = 50
+
 Used formulas:
   - y = h + v * sin(α) * t - g * t² / 2
   - x = v * cos(α) * t
