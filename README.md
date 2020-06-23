@@ -6,6 +6,7 @@ Used formulas:
   - t = (v * sin(α) + √((v * sin(α))² + 2 * g * h)) / g
 
 Result:
+
 ![](animation.gif)
 
 Some others:
