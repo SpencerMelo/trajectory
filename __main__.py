@@ -3,13 +3,13 @@ import numpy as np
 import matplotlib.animation as animation
 
 angle = 50
-velocity = 100
+velocity = 50
 radians = np.deg2rad(angle)
 gravity = 9.8
-height = 50
+height = 0
 
 time = (velocity * np.sin(radians) + np.sqrt((velocity * np.sin(radians)) ** 2 + 2 * gravity * height)) / gravity
-time = np.arange(0, time + 0.1, 0.1)
+time = np.arange(0, time + 0.05, 0.05)
 
 x = velocity * np.cos(radians) * time
 y = height + velocity * np.sin(radians) * time - gravity * time ** 2 / 2
