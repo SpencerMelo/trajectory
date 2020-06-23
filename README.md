@@ -13,7 +13,7 @@ Used formulas:
 
 Result:
 
-![](animation.gif)
+![](animation_.gif)
 
 Some others:
   - x = v * cos(α) * t
