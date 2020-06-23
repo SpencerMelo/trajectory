@@ -2,9 +2,9 @@
 
 Input:
   - angle = 50
-  - velocity = 100
+  - velocity = 50
   - gravity = 9.8
-  - initial height = 50
+  - initial height = 0
 
 Used formulas:
   - y = h + v * sin(α) * t - g * t² / 2
